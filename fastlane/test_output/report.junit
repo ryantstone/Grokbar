@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='GrokBarTests.xctest' tests='7' failures='0'>
+  <testsuite name='GrokBarTests.GrokBarTests' tests='2' failures='0'>
+    <testcase classname='GrokBarTests.GrokBarTests' name='testExample' time='0.342'/>
+    <testcase classname='GrokBarTests.GrokBarTests' name='testPerformanceExample' time='0.322'/>
+  </testsuite>
+  <testsuite name='GrokBarTests.YmlParserTests' tests='5' failures='0'>
+    <testcase classname='GrokBarTests.YmlParserTests' name='testCustomerGrokFile' time='0.001'/>
+    <testcase classname='GrokBarTests.YmlParserTests' name='testInvalidNgrokFile' time='0.001'/>
+    <testcase classname='GrokBarTests.YmlParserTests' name='testParsingOfTunnels' time='0.002'/>
+    <testcase classname='GrokBarTests.YmlParserTests' name='testSettingDefaultGrokFile' time='0.001'/>
+    <testcase classname='GrokBarTests.YmlParserTests' name='testValidNgrokFile' time='0.001'/>
+  </testsuite>
+</testsuites>

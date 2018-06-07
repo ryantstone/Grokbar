@@ -1,0 +1,9 @@
+setup_travis
+default_platform(:mac)
+
+platform :mac do
+  desc "Run tests"
+  lane :test do
+    run_tests(scheme: "GrokBarTests")
+  end
+end

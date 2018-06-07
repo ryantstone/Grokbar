@@ -38,16 +38,6 @@
                ReferencedContainer = "container:GrokBar.xcodeproj">
             </BuildableReference>
          </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "691DEDE1208F5FEF007589BD"
-               BuildableName = "PlaygroundFrameworkTests.xctest"
-               BlueprintName = "PlaygroundFrameworkTests"
-               ReferencedContainer = "container:GrokBar.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
