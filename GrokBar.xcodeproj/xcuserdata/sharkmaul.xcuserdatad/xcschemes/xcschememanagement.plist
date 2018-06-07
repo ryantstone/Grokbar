@@ -7,17 +7,30 @@
 		<key>GrokBar.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>5</integer>
 		</dict>
-		<key>PlaygroundFramework.xcscheme</key>
+		<key>GrokBarTests.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>4</integer>
 		</dict>
 		<key>PlaygroundFrameworkTests.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>69C85F0C208F940000BB5BC3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69C85F14208F940000BB5BC3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
