@@ -2,8 +2,7 @@ import Foundation
 import AppKit
 
 class MenuViewController: NSViewController {
-    
-    var tunnels: [Tunnel] = []
+    @IBOutlet weak var tunnelCollectionView: TunnelCollectionView! 
     
     override func viewDidLoad() {
         startParse()
@@ -12,7 +11,7 @@ class MenuViewController: NSViewController {
     func startParse() {
         let yaml = YmlParser.init(path: nil)
         do {
-            tunnels = try yaml.parseTunnels()
+            TunnelManager.shared.tunnels = try yaml.parseTunnels()
         } catch {
             print(error)
         }

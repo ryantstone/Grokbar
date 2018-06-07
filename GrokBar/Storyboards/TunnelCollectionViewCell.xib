@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+        <capability name="stacking Non-gravity area distributions on NSStackView" minToolsVersion="7.0" minSystemVersion="10.11"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="TunnelCollectionViewCell" customModule="GrokBar" customModuleProvider="target">
+            <connections>
+                <outlet property="isSelectedCheckBox" destination="vxU-9n-qbe" id="7Uy-pH-qRa"/>
+                <outlet property="portLabel" destination="fdB-Cb-HG2" id="PR4-J0-QHM"/>
+                <outlet property="subdomainLabel" destination="9Y2-rF-6nb" id="ReV-YT-8cF"/>
+                <outlet property="titleLabel" destination="0e0-33-9AU" id="yWk-RO-H9W"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="31"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <stackView identifier="TunnelCollectionViewCell" distribution="fillProportionally" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ga9-Qe-IJn">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="31"/>
+                    <subviews>
+                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vxU-9n-qbe">
+                            <rect key="frame" x="-2" y="7" width="74" height="18"/>
+                            <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="1eQ-OI-BPQ">
+                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                        </button>
+                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="IcO-mb-YVU">
+                            <rect key="frame" x="76" y="7" width="133" height="17"/>
+                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="0e0-33-9AU">
+                                <font key="font" metaFont="system"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="umF-tt-Xsu">
+                            <rect key="frame" x="213" y="7" width="132" height="17"/>
+                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="9Y2-rF-6nb">
+                                <font key="font" metaFont="system"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="32o-bR-ILt">
+                            <rect key="frame" x="349" y="7" width="133" height="17"/>
+                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="fdB-Cb-HG2">
+                                <font key="font" metaFont="system"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                    </subviews>
+                    <visibilityPriorities>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                    </visibilityPriorities>
+                    <customSpacing>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                    </customSpacing>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ga9-Qe-IJn" secondAttribute="bottom" id="4Bl-IN-a9z"/>
+                <constraint firstAttribute="trailing" secondItem="ga9-Qe-IJn" secondAttribute="trailing" id="Hmi-xt-t17"/>
+                <constraint firstItem="ga9-Qe-IJn" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="Z5U-gf-fkn"/>
+                <constraint firstItem="ga9-Qe-IJn" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="n4K-hL-dJa"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="243.5"/>
+        </customView>
+        <collectionViewItem id="VWu-tg-WgZ" customClass="TunnelCollectionViewCell" customModule="GrokBar" customModuleProvider="target">
+            <connections>
+                <outlet property="isSelectedCheckBox" destination="vxU-9n-qbe" id="mDG-0d-Smi"/>
+                <outlet property="portLabel" destination="fdB-Cb-HG2" id="6Mj-aY-isE"/>
+                <outlet property="subdomainLabel" destination="9Y2-rF-6nb" id="RxY-h9-Okt"/>
+                <outlet property="titleLabel" destination="0e0-33-9AU" id="wZ2-PG-u2Z"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="CPS-QU-0Vs"/>
+            </connections>
+        </collectionViewItem>
+    </objects>
+</document>
