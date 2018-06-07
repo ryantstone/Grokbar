@@ -2,7 +2,15 @@ import Foundation
 import AppKit
 
 class MenuViewController: NSViewController {
+    override func viewDidLoad() {
+        startParse()
+    }
     
+    func startParse() {
+        let yaml = YmlParser.init()
+        yaml.setGrokFile()
+        yaml.parse()
+    }
 }
 
 extension MenuViewController {

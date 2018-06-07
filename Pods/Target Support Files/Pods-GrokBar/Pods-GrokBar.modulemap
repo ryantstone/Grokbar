@@ -1,0 +1,6 @@
+framework module Pods_GrokBar {
+  umbrella header "Pods-GrokBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
