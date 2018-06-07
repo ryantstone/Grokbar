@@ -4,4 +4,7 @@ xcode_project: GrokBar.xcodeproj # path to your xcodeproj folder
 xcode_scheme: GrokBarTests
 xcode_workspace: GrokBar.xcworkspace
 # script: xcodebuild clean && xcodebuild build -sdk macosx10.13 -workspace GrokBar.xcworkspace -scheme GrokBarTests && xctool -workspace GrokBar.xcworkspace -scheme GrokBar run-tests
-script: xcodebuild build -workspace GrokBar.xcworkspace -scheme GrokBarTests && xctool -workspace GrokBar.xcworkspace -scheme GrokBar run-tests
+# script: xcodebuild build -workspace GrokBar.xcworkspace -scheme GrokBarTests && xctool -workspace GrokBar.xcworkspace -scheme GrokBar run-tests
+install:
+  - brew install fastlane
+script: bundle exec fastlane mac test
