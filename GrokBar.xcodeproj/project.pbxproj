@@ -46,7 +46,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		152ED2944E09B2B5EC568F64 /* Pods_PlaygroundFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlaygroundFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FB84167A4E3B848458FF6C /* Pods-GrokBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrokBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrokBar/Pods-GrokBar.release.xcconfig"; sourceTree = "<group>"; };
 		6903B01620893E27001D9A11 /* GrokBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrokBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6903B01920893E27001D9A11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,7 +65,6 @@
 		69405A0D20C9C12700CB1D69 /* invalidNgrok.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = invalidNgrok.yml; sourceTree = "<group>"; };
 		708CEDC48BCFE78B0C5BDAC0 /* Pods-GrokBar-PlaygroundFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrokBar-PlaygroundFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrokBar-PlaygroundFramework/Pods-GrokBar-PlaygroundFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		7BD53859541F438897AC2EF7 /* Pods-GrokBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrokBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrokBar/Pods-GrokBar.debug.xcconfig"; sourceTree = "<group>"; };
-		80D0EAB5F3038EC8A7098175 /* Pods_GrokBar_PlaygroundFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrokBar_PlaygroundFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC73496B598C330D311894E /* Pods_GrokBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrokBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		950FC68F3931F22962C1A13E /* Pods-GrokBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrokBarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrokBarTests/Pods-GrokBarTests.release.xcconfig"; sourceTree = "<group>"; };
 		9E14D42B7370BCDDD30D6950 /* Pods-PlaygroundFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaygroundFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlaygroundFramework/Pods-PlaygroundFramework.debug.xcconfig"; sourceTree = "<group>"; };
@@ -196,8 +194,6 @@
 			children = (
 				8FC73496B598C330D311894E /* Pods_GrokBar.framework */,
 				F1755B8F2ACB78610C3718A6 /* Pods_GrokBarTests.framework */,
-				80D0EAB5F3038EC8A7098175 /* Pods_GrokBar_PlaygroundFramework.framework */,
-				152ED2944E09B2B5EC568F64 /* Pods_PlaygroundFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
