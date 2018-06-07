@@ -7,21 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C7F14B468A32AC0715D176C /* Pods_PlaygroundFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152ED2944E09B2B5EC568F64 /* Pods_PlaygroundFramework.framework */; };
 		6903B01A20893E27001D9A11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903B01920893E27001D9A11 /* AppDelegate.swift */; };
 		6903B01C20893E27001D9A11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903B01B20893E27001D9A11 /* ViewController.swift */; };
 		6903B01E20893E28001D9A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6903B01D20893E28001D9A11 /* Assets.xcassets */; };
 		6903B02120893E28001D9A11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6903B01F20893E28001D9A11 /* Main.storyboard */; };
 		6903B02D20893E28001D9A11 /* GrokBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903B02C20893E28001D9A11 /* GrokBarTests.swift */; };
 		6903B039208940BB001D9A11 /* menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903B038208940BB001D9A11 /* menu.swift */; };
-		691DEDEA208F5FEF007589BD /* PlaygroundFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691DEDE9208F5FEF007589BD /* PlaygroundFrameworkTests.swift */; };
-		69240DC6208A159B0070C754 /* YmlParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69240DC5208A159B0070C754 /* YmlParser.swift */; };
-		69384BA1208A4B7700EE5CB6 /* ngrokFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69384BA0208A4B7700EE5CB6 /* ngrokFile.swift */; };
-		69C85F16208F940000BB5BC3 /* PlaygroundFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C85F0D208F940000BB5BC3 /* PlaygroundFramework.framework */; };
-		69C85F1B208F940000BB5BC3 /* PlaygroundFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C85F1A208F940000BB5BC3 /* PlaygroundFrameworkTests.swift */; };
-		69C85F1D208F940000BB5BC3 /* PlaygroundFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C85F0F208F940000BB5BC3 /* PlaygroundFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69C85F24208F940B00BB5BC3 /* YmlParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69240DC5208A159B0070C754 /* YmlParser.swift */; };
-		69C85F25208F940E00BB5BC3 /* ngrokFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69384BA0208A4B7700EE5CB6 /* ngrokFile.swift */; };
+		69240DC6208A159B0070C754 /* YmlParser+NGROKFileError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69240DC5208A159B0070C754 /* YmlParser+NGROKFileError.swift */; };
+		69405A0720C9B10E00CB1D69 /* Tunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69405A0620C9B10E00CB1D69 /* Tunnel.swift */; };
+		69405A0A20C9B37800CB1D69 /* YmlParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69405A0920C9B37800CB1D69 /* YmlParserTests.swift */; };
+		69405A0C20C9BB1F00CB1D69 /* validNgrok.yml in Resources */ = {isa = PBXBuildFile; fileRef = 69405A0B20C9B80B00CB1D69 /* validNgrok.yml */; };
 		835AD383F9D6CB4C85D6796D /* Pods_GrokBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC73496B598C330D311894E /* Pods_GrokBar.framework */; };
 		C6C3CF946573A49E67FCDB7B /* Pods_GrokBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1755B8F2ACB78610C3718A6 /* Pods_GrokBarTests.framework */; };
 /* End PBXBuildFile section */
@@ -33,20 +28,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6903B01520893E27001D9A11;
 			remoteInfo = GrokBar;
-		};
-		691DEDE6208F5FEF007589BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6903B00E20893E27001D9A11 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6903B01520893E27001D9A11;
-			remoteInfo = GrokBar;
-		};
-		69C85F17208F940000BB5BC3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6903B00E20893E27001D9A11 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 69C85F0C208F940000BB5BC3;
-			remoteInfo = PlaygroundFramework;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -77,19 +58,10 @@
 		6903B02C20893E28001D9A11 /* GrokBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrokBarTests.swift; sourceTree = "<group>"; };
 		6903B02E20893E28001D9A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6903B038208940BB001D9A11 /* menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu.swift; sourceTree = "<group>"; };
-		691DEDDC208F5FEF007589BD /* PlaygroundFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaygroundFramework.h; sourceTree = "<group>"; };
-		691DEDDD208F5FEF007589BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		691DEDE2208F5FEF007589BD /* PlaygroundFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		691DEDE9208F5FEF007589BD /* PlaygroundFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundFrameworkTests.swift; sourceTree = "<group>"; };
-		691DEDEB208F5FEF007589BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69240DC5208A159B0070C754 /* YmlParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YmlParser.swift; sourceTree = "<group>"; };
-		69384BA0208A4B7700EE5CB6 /* ngrokFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ngrokFile.swift; sourceTree = "<group>"; };
-		69C85F0D208F940000BB5BC3 /* PlaygroundFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PlaygroundFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		69C85F0F208F940000BB5BC3 /* PlaygroundFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaygroundFramework.h; sourceTree = "<group>"; };
-		69C85F10208F940000BB5BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69C85F15208F940000BB5BC3 /* PlaygroundFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		69C85F1A208F940000BB5BC3 /* PlaygroundFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundFrameworkTests.swift; sourceTree = "<group>"; };
-		69C85F1C208F940000BB5BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69240DC5208A159B0070C754 /* YmlParser+NGROKFileError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "YmlParser+NGROKFileError.swift"; sourceTree = "<group>"; };
+		69405A0620C9B10E00CB1D69 /* Tunnel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tunnel.swift; sourceTree = "<group>"; };
+		69405A0920C9B37800CB1D69 /* YmlParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YmlParserTests.swift; sourceTree = "<group>"; };
+		69405A0B20C9B80B00CB1D69 /* validNgrok.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = validNgrok.yml; sourceTree = "<group>"; };
 		708CEDC48BCFE78B0C5BDAC0 /* Pods-GrokBar-PlaygroundFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrokBar-PlaygroundFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrokBar-PlaygroundFramework/Pods-GrokBar-PlaygroundFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		7BD53859541F438897AC2EF7 /* Pods-GrokBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrokBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrokBar/Pods-GrokBar.debug.xcconfig"; sourceTree = "<group>"; };
 		80D0EAB5F3038EC8A7098175 /* Pods_GrokBar_PlaygroundFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrokBar_PlaygroundFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,29 +91,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		691DEDDF208F5FEF007589BD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69C85F09208F940000BB5BC3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5C7F14B468A32AC0715D176C /* Pods_PlaygroundFramework.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69C85F12208F940000BB5BC3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69C85F16208F940000BB5BC3 /* PlaygroundFramework.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -165,10 +114,6 @@
 			children = (
 				6903B01820893E27001D9A11 /* GrokBar */,
 				6903B02B20893E28001D9A11 /* GrokBarTests */,
-				691DEDDB208F5FEF007589BD /* PlaygroundFramework */,
-				691DEDE8208F5FEF007589BD /* PlaygroundFrameworkTests */,
-				69C85F0E208F940000BB5BC3 /* PlaygroundFramework */,
-				69C85F19208F940000BB5BC3 /* PlaygroundFrameworkTests */,
 				6903B01720893E27001D9A11 /* Products */,
 				1A0B9CCDC390E748DCCE1907 /* Pods */,
 				AE5E9182CDCD5CF837418189 /* Frameworks */,
@@ -180,9 +125,6 @@
 			children = (
 				6903B01620893E27001D9A11 /* GrokBar.app */,
 				6903B02820893E28001D9A11 /* GrokBarTests.xctest */,
-				691DEDE2208F5FEF007589BD /* PlaygroundFrameworkTests.xctest */,
-				69C85F0D208F940000BB5BC3 /* PlaygroundFramework.framework */,
-				69C85F15208F940000BB5BC3 /* PlaygroundFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -190,6 +132,7 @@
 		6903B01820893E27001D9A11 /* GrokBar */ = {
 			isa = PBXGroup;
 			children = (
+				69405A0520C9B10500CB1D69 /* Models */,
 				69240DC4208A158E0070C754 /* YAML */,
 				6903B02320893E28001D9A11 /* GrokBar.entitlements */,
 				6903B02220893E28001D9A11 /* Info.plist */,
@@ -202,6 +145,8 @@
 		6903B02B20893E28001D9A11 /* GrokBarTests */ = {
 			isa = PBXGroup;
 			children = (
+				69405A0B20C9B80B00CB1D69 /* validNgrok.yml */,
+				69405A0820C9B34A00CB1D69 /* YAML */,
 				6903B02C20893E28001D9A11 /* GrokBarTests.swift */,
 				6903B02E20893E28001D9A11 /* Info.plist */,
 			);
@@ -219,49 +164,28 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
-		691DEDDB208F5FEF007589BD /* PlaygroundFramework */ = {
-			isa = PBXGroup;
-			children = (
-				691DEDDC208F5FEF007589BD /* PlaygroundFramework.h */,
-				691DEDDD208F5FEF007589BD /* Info.plist */,
-			);
-			path = PlaygroundFramework;
-			sourceTree = "<group>";
-		};
-		691DEDE8208F5FEF007589BD /* PlaygroundFrameworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				691DEDE9208F5FEF007589BD /* PlaygroundFrameworkTests.swift */,
-				691DEDEB208F5FEF007589BD /* Info.plist */,
-			);
-			path = PlaygroundFrameworkTests;
-			sourceTree = "<group>";
-		};
 		69240DC4208A158E0070C754 /* YAML */ = {
 			isa = PBXGroup;
 			children = (
-				69240DC5208A159B0070C754 /* YmlParser.swift */,
-				69384BA0208A4B7700EE5CB6 /* ngrokFile.swift */,
+				69240DC5208A159B0070C754 /* YmlParser+NGROKFileError.swift */,
 			);
 			path = YAML;
 			sourceTree = "<group>";
 		};
-		69C85F0E208F940000BB5BC3 /* PlaygroundFramework */ = {
+		69405A0520C9B10500CB1D69 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				69C85F0F208F940000BB5BC3 /* PlaygroundFramework.h */,
-				69C85F10208F940000BB5BC3 /* Info.plist */,
+				69405A0620C9B10E00CB1D69 /* Tunnel.swift */,
 			);
-			path = PlaygroundFramework;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		69C85F19208F940000BB5BC3 /* PlaygroundFrameworkTests */ = {
+		69405A0820C9B34A00CB1D69 /* YAML */ = {
 			isa = PBXGroup;
 			children = (
-				69C85F1A208F940000BB5BC3 /* PlaygroundFrameworkTests.swift */,
-				69C85F1C208F940000BB5BC3 /* Info.plist */,
+				69405A0920C9B37800CB1D69 /* YmlParserTests.swift */,
 			);
-			path = PlaygroundFrameworkTests;
+			path = YAML;
 			sourceTree = "<group>";
 		};
 		AE5E9182CDCD5CF837418189 /* Frameworks */ = {
@@ -276,17 +200,6 @@
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		69C85F0A208F940000BB5BC3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69C85F1D208F940000BB5BC3 /* PlaygroundFramework.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		6903B01520893E27001D9A11 /* GrokBar */ = {
@@ -329,61 +242,6 @@
 			productReference = 6903B02820893E28001D9A11 /* GrokBarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		691DEDE1208F5FEF007589BD /* PlaygroundFrameworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 691DEDF5208F5FEF007589BD /* Build configuration list for PBXNativeTarget "PlaygroundFrameworkTests" */;
-			buildPhases = (
-				691DEDDE208F5FEF007589BD /* Sources */,
-				691DEDDF208F5FEF007589BD /* Frameworks */,
-				691DEDE0208F5FEF007589BD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				691DEDE7208F5FEF007589BD /* PBXTargetDependency */,
-			);
-			name = PlaygroundFrameworkTests;
-			productName = PlaygroundFrameworkTests;
-			productReference = 691DEDE2208F5FEF007589BD /* PlaygroundFrameworkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		69C85F0C208F940000BB5BC3 /* PlaygroundFramework */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 69C85F1E208F940000BB5BC3 /* Build configuration list for PBXNativeTarget "PlaygroundFramework" */;
-			buildPhases = (
-				9EC95FDABC1D01AFED7286EB /* [CP] Check Pods Manifest.lock */,
-				69C85F08208F940000BB5BC3 /* Sources */,
-				69C85F09208F940000BB5BC3 /* Frameworks */,
-				69C85F0A208F940000BB5BC3 /* Headers */,
-				69C85F0B208F940000BB5BC3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PlaygroundFramework;
-			productName = PlaygroundFramework;
-			productReference = 69C85F0D208F940000BB5BC3 /* PlaygroundFramework.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		69C85F14208F940000BB5BC3 /* PlaygroundFrameworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 69C85F21208F940000BB5BC3 /* Build configuration list for PBXNativeTarget "PlaygroundFrameworkTests" */;
-			buildPhases = (
-				69C85F11208F940000BB5BC3 /* Sources */,
-				69C85F12208F940000BB5BC3 /* Frameworks */,
-				69C85F13208F940000BB5BC3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				69C85F18208F940000BB5BC3 /* PBXTargetDependency */,
-			);
-			name = PlaygroundFrameworkTests;
-			productName = PlaygroundFrameworkTests;
-			productReference = 69C85F15208F940000BB5BC3 /* PlaygroundFrameworkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -400,16 +258,6 @@
 					6903B02720893E28001D9A11 = {
 						CreatedOnToolsVersion = 9.3;
 						TestTargetID = 6903B01520893E27001D9A11;
-					};
-					691DEDE1208F5FEF007589BD = {
-						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 6903B01520893E27001D9A11;
-					};
-					69C85F0C208F940000BB5BC3 = {
-						CreatedOnToolsVersion = 9.3;
-					};
-					69C85F14208F940000BB5BC3 = {
-						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
@@ -428,9 +276,6 @@
 			targets = (
 				6903B01520893E27001D9A11 /* GrokBar */,
 				6903B02720893E28001D9A11 /* GrokBarTests */,
-				691DEDE1208F5FEF007589BD /* PlaygroundFrameworkTests */,
-				69C85F0C208F940000BB5BC3 /* PlaygroundFramework */,
-				69C85F14208F940000BB5BC3 /* PlaygroundFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -449,27 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		691DEDE0208F5FEF007589BD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69C85F0B208F940000BB5BC3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69C85F13208F940000BB5BC3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				69405A0C20C9BB1F00CB1D69 /* validNgrok.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,24 +335,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrokBar/Pods-GrokBar-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9EC95FDABC1D01AFED7286EB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PlaygroundFramework-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B5F39AD70CFF9B3DA01027EF /* [CP] Check Pods Manifest.lock */ = {
@@ -573,11 +380,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69384BA1208A4B7700EE5CB6 /* ngrokFile.swift in Sources */,
+				69405A0720C9B10E00CB1D69 /* Tunnel.swift in Sources */,
 				6903B01C20893E27001D9A11 /* ViewController.swift in Sources */,
 				6903B01A20893E27001D9A11 /* AppDelegate.swift in Sources */,
 				6903B039208940BB001D9A11 /* menu.swift in Sources */,
-				69240DC6208A159B0070C754 /* YmlParser.swift in Sources */,
+				69240DC6208A159B0070C754 /* YmlParser+NGROKFileError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,31 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6903B02D20893E28001D9A11 /* GrokBarTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		691DEDDE208F5FEF007589BD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				691DEDEA208F5FEF007589BD /* PlaygroundFrameworkTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69C85F08208F940000BB5BC3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69C85F24208F940B00BB5BC3 /* YmlParser.swift in Sources */,
-				69C85F25208F940E00BB5BC3 /* ngrokFile.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69C85F11208F940000BB5BC3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69C85F1B208F940000BB5BC3 /* PlaygroundFrameworkTests.swift in Sources */,
+				69405A0A20C9B37800CB1D69 /* YmlParserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,16 +404,6 @@
 			isa = PBXTargetDependency;
 			target = 6903B01520893E27001D9A11 /* GrokBar */;
 			targetProxy = 6903B02920893E28001D9A11 /* PBXContainerItemProxy */;
-		};
-		691DEDE7208F5FEF007589BD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6903B01520893E27001D9A11 /* GrokBar */;
-			targetProxy = 691DEDE6208F5FEF007589BD /* PBXContainerItemProxy */;
-		};
-		69C85F18208F940000BB5BC3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 69C85F0C208F940000BB5BC3 /* PlaygroundFramework */;
-			targetProxy = 69C85F17208F940000BB5BC3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -770,7 +543,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FV9NULGJG4;
 				INFOPLIST_FILE = "$(SRCROOT)/GrokBar/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.trimAgency.GrokBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -788,7 +564,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FV9NULGJG4;
 				INFOPLIST_FILE = "$(SRCROOT)/GrokBar/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.trimAgency.GrokBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -805,7 +584,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ZVRNHU225Q;
 				INFOPLIST_FILE = GrokBarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.trimAgency.GrokBarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -823,125 +606,15 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ZVRNHU225Q;
 				INFOPLIST_FILE = GrokBarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.trimAgency.GrokBarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrokBar.app/Contents/MacOS/GrokBar";
-			};
-			name = Release;
-		};
-		691DEDF6208F5FEF007589BD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = FV9NULGJG4;
-				INFOPLIST_FILE = PlaygroundFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.trimAgency.PlaygroundFrameworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrokBar.app/Contents/MacOS/GrokBar";
-			};
-			name = Debug;
-		};
-		691DEDF7208F5FEF007589BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = FV9NULGJG4;
-				INFOPLIST_FILE = PlaygroundFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.trimAgency.PlaygroundFrameworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrokBar.app/Contents/MacOS/GrokBar";
-			};
-			name = Release;
-		};
-		69C85F1F208F940000BB5BC3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E14D42B7370BCDDD30D6950 /* Pods-PlaygroundFramework.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = FV9NULGJG4;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = PlaygroundFramework/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.trimAgency.PlaygroundFramework;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		69C85F20208F940000BB5BC3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2ADFD2A974D8A836BCE14C2 /* Pods-PlaygroundFramework.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = FV9NULGJG4;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = PlaygroundFramework/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.trimAgency.PlaygroundFramework;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		69C85F22208F940000BB5BC3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = FV9NULGJG4;
-				INFOPLIST_FILE = PlaygroundFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.trimAgency.PlaygroundFrameworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		69C85F23208F940000BB5BC3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = FV9NULGJG4;
-				INFOPLIST_FILE = PlaygroundFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.trimAgency.PlaygroundFrameworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -971,33 +644,6 @@
 			buildConfigurations = (
 				6903B03520893E28001D9A11 /* Debug */,
 				6903B03620893E28001D9A11 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		691DEDF5208F5FEF007589BD /* Build configuration list for PBXNativeTarget "PlaygroundFrameworkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				691DEDF6208F5FEF007589BD /* Debug */,
-				691DEDF7208F5FEF007589BD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		69C85F1E208F940000BB5BC3 /* Build configuration list for PBXNativeTarget "PlaygroundFramework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				69C85F1F208F940000BB5BC3 /* Debug */,
-				69C85F20208F940000BB5BC3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		69C85F21208F940000BB5BC3 /* Build configuration list for PBXNativeTarget "PlaygroundFrameworkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				69C85F22208F940000BB5BC3 /* Debug */,
-				69C85F23208F940000BB5BC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
