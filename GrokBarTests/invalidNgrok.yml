@@ -1,0 +1,10 @@
+authtoken: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+tunnels:
+  fake-client:
+    subdomain: fake-client
+    proto: http
+  fake-api:
+    addr: 3000
+    subdomain: fake-api
+    proto: http
+
