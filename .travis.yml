@@ -7,4 +7,5 @@ xcode_workspace: GrokBar.xcworkspace
 # script: xcodebuild build -workspace GrokBar.xcworkspace -scheme GrokBarTests && xctool -workspace GrokBar.xcworkspace -scheme GrokBar run-tests
 install:
   - gem install fastlane
+  - bundle install
 script: bundle exec fastlane mac test
