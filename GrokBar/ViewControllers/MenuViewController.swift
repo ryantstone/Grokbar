@@ -2,8 +2,11 @@ import Foundation
 import AppKit
 
 class MenuViewController: NSViewController {
-    @IBOutlet weak var tunnelCollectionView: TunnelCollectionView! 
+    //MARK: - Outlets
+    @IBOutlet weak var tunnelCollectionView: TunnelCollectionView!
     @IBOutlet weak var startButton: NSButton!
+    
+    // MARK: - Actions
     @IBAction func didClickStart(_ sender: Any) {
         print("clicked start")
     }

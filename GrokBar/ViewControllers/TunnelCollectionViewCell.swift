@@ -1,18 +1,27 @@
 import Cocoa
 
 class TunnelCollectionViewCell: NSCollectionViewItem {
+    
+    // MARK: - Outlets
     @IBOutlet weak var isSelectedCheckBox: NSButton!
     @IBOutlet weak var titleLabel: NSTextFieldCell!
     @IBOutlet weak var subdomainLabel: NSTextFieldCell!
     @IBOutlet weak var portLabel: NSTextFieldCell!
+    
+    // MARK: - Properties
     var isSelectedState = false {
-        didSet { isSelectedCheckBox.state = isSelected ? .on : .off }
+        didSet {
+            isSelectedCheckBox.state = isSelected ? .on : .off
+        }
     }
     
     var tunnel: Tunnel! {
-        didSet { setupView() }
-            }
+        didSet {
+            setupView()
+        }
+    }
     
+    // MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
         isSelectedCheckBox.state = .off

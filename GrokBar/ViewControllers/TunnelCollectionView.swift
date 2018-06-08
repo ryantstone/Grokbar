@@ -1,14 +1,14 @@
 import AppKit
 
 class TunnelCollectionView: NSCollectionView {
-    
+   
+    // MARK: - LifeCycle
     override func viewWillMove(toWindow newWindow: NSWindow?) {
         super.viewWillMove(toWindow: newWindow)
         dataSource = self
         setupFlowLayout()
-}
-    
-    
+    }
+
     private func setupFlowLayout() {
         let layout = NSCollectionViewFlowLayout()
         layout.itemSize = NSSize(width: frame.width, height: 25)
@@ -19,6 +19,7 @@ class TunnelCollectionView: NSCollectionView {
 
 // MARK: - Data Source
 extension TunnelCollectionView: NSCollectionViewDataSource {
+    
     func collectionView(_ collectionView: NSCollectionView, numberOfItemsInSection section: Int) -> Int {
         return TunnelManager.shared.tunnels.count
     }
