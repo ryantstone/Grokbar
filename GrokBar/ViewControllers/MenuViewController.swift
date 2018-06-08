@@ -2,17 +2,28 @@ import Foundation
 import AppKit
 
 class MenuViewController: NSViewController {
+    //MARK: - Outlets
+    @IBOutlet weak var tunnelCollectionView: TunnelCollectionView!
+    @IBOutlet weak var startButton: NSButton!
     
-    var tunnels: [Tunnel] = []
-    
-    override func viewDidLoad() {
-        startParse()
+    // MARK: - Actions
+    @IBAction func didClickStart(_ sender: Any) {
+        print("clicked start")
     }
     
-    func startParse() {
+    override func viewDidLoad() {
+        parseNgrokFile()
+    }
+    
+    override func viewWillAppear() {
+        super.viewWillAppear()
+        view.layer?.backgroundColor = NSColor.white.cgColor
+    }
+    
+    func parseNgrokFile() {
         let yaml = YmlParser.init(path: nil)
         do {
-            tunnels = try yaml.parseTunnels()
+            TunnelManager.shared.tunnels = try yaml.parseTunnels()
         } catch {
             print(error)
         }
