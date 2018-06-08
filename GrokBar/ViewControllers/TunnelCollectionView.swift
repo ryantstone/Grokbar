@@ -6,7 +6,7 @@ class TunnelCollectionView: NSCollectionView {
         super.viewWillMove(toWindow: newWindow)
         dataSource = self
         setupFlowLayout()
-    }
+}
     
     
     private func setupFlowLayout() {

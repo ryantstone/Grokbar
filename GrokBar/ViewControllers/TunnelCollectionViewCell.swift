@@ -5,13 +5,17 @@ class TunnelCollectionViewCell: NSCollectionViewItem {
     @IBOutlet weak var titleLabel: NSTextFieldCell!
     @IBOutlet weak var subdomainLabel: NSTextFieldCell!
     @IBOutlet weak var portLabel: NSTextFieldCell!
+    var isSelectedState = false {
+        didSet { isSelectedCheckBox.state = isSelected ? .on : .off }
+    }
     
     var tunnel: Tunnel! {
         didSet { setupView() }
-    }
+            }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        isSelectedCheckBox.state = .off
         view.wantsLayer = true
     }
     

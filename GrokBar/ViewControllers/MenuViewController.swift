@@ -3,6 +3,10 @@ import AppKit
 
 class MenuViewController: NSViewController {
     @IBOutlet weak var tunnelCollectionView: TunnelCollectionView! 
+    @IBOutlet weak var startButton: NSButton!
+    @IBAction func didClickStart(_ sender: Any) {
+        print("clicked start")
+    }
     
     override func viewDidLoad() {
         parseNgrokFile()
