@@ -5,10 +5,15 @@ class MenuViewController: NSViewController {
     @IBOutlet weak var tunnelCollectionView: TunnelCollectionView! 
     
     override func viewDidLoad() {
-        startParse()
+        parseNgrokFile()
     }
     
-    func startParse() {
+    override func viewWillAppear() {
+        super.viewWillAppear()
+        view.layer?.backgroundColor = NSColor.white.cgColor
+    }
+    
+    func parseNgrokFile() {
         let yaml = YmlParser.init(path: nil)
         do {
             TunnelManager.shared.tunnels = try yaml.parseTunnels()

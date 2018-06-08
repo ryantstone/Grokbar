@@ -11,7 +11,7 @@ class TunnelCollectionView: NSCollectionView {
     
     private func setupFlowLayout() {
         let layout = NSCollectionViewFlowLayout()
-        layout.itemSize = NSSize(width: frame.width, height: 50)
+        layout.itemSize = NSSize(width: frame.width, height: 25)
         collectionViewLayout = layout
         wantsLayer = true
     }
