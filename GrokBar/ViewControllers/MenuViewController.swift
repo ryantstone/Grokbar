@@ -8,7 +8,8 @@ class MenuViewController: NSViewController {
     
     // MARK: - Actions
     @IBAction func didClickStart(_ sender: Any) {
-        print("clicked start")
+        let selectedTunnels = getSelectedTunnels()
+        _ = TunnelService().startTunnelServer(selectedTunnels)
     }
     
     override func viewDidLoad() {
@@ -27,6 +28,14 @@ class MenuViewController: NSViewController {
         } catch {
             print(error)
         }
+    }
+    
+    private func getSelectedTunnels() -> [Tunnel] {
+        let tunnels = tunnelCollectionView.visibleItems().compactMap { (item) -> Tunnel? in
+            let item = item as! TunnelCollectionViewCell
+            return item.state() ? item.tunnel : nil
+        }
+        return tunnels
     }
 }
 

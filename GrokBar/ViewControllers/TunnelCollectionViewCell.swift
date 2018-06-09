@@ -7,12 +7,9 @@ class TunnelCollectionViewCell: NSCollectionViewItem {
     @IBOutlet weak var titleLabel: NSTextFieldCell!
     @IBOutlet weak var subdomainLabel: NSTextFieldCell!
     @IBOutlet weak var portLabel: NSTextFieldCell!
-    
-    // MARK: - Properties
-    var isSelectedState = false {
-        didSet {
-            isSelectedCheckBox.state = isSelected ? .on : .off
-        }
+    @IBAction func didChangeSelection(_ sender: Any) {
+        let button = sender as! NSButton
+//        self.isSelected = button.state.rawValue == 1 ? true : false
     }
     
     var tunnel: Tunnel! {
@@ -36,5 +33,9 @@ class TunnelCollectionViewCell: NSCollectionViewItem {
         titleLabel.title        = tunnel.name ?? "Unnamed"
         subdomainLabel.title    = tunnel.subDomain ?? "No Subdomain"
         portLabel.title         = "\(tunnel.address)"
+    }
+
+    public func state() -> Bool {
+        return isSelectedCheckBox.state.rawValue == 1 ? true : false
     }
 }

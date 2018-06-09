@@ -21,6 +21,7 @@
 		69420D5D20C9EDCC0009F89A /* TunnelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69420D5B20C9EDCC0009F89A /* TunnelCollectionViewCell.swift */; };
 		69420D5E20C9EDCC0009F89A /* TunnelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69420D5C20C9EDCC0009F89A /* TunnelCollectionViewCell.xib */; };
 		69420D6120C9FAB80009F89A /* TunnelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69420D6020C9FAB80009F89A /* TunnelManager.swift */; };
+		69420D6420CA8D620009F89A /* TunnelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69420D6320CA8D620009F89A /* TunnelService.swift */; };
 		835AD383F9D6CB4C85D6796D /* Pods_GrokBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC73496B598C330D311894E /* Pods_GrokBar.framework */; };
 		C6C3CF946573A49E67FCDB7B /* Pods_GrokBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1755B8F2ACB78610C3718A6 /* Pods_GrokBarTests.framework */; };
 /* End PBXBuildFile section */
@@ -66,9 +67,10 @@
 		69405A0B20C9B80B00CB1D69 /* validNgrok.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = validNgrok.yml; sourceTree = "<group>"; };
 		69405A0D20C9C12700CB1D69 /* invalidNgrok.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = invalidNgrok.yml; sourceTree = "<group>"; };
 		69420D5920C9E99A0009F89A /* TunnelCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunnelCollectionView.swift; sourceTree = "<group>"; };
-		69420D5B20C9EDCC0009F89A /* TunnelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TunnelCollectionViewCell.swift; path = ViewControllers/TunnelCollectionViewCell.swift; sourceTree = "<group>"; };
+		69420D5B20C9EDCC0009F89A /* TunnelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunnelCollectionViewCell.swift; sourceTree = "<group>"; };
 		69420D5C20C9EDCC0009F89A /* TunnelCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TunnelCollectionViewCell.xib; sourceTree = "<group>"; };
 		69420D6020C9FAB80009F89A /* TunnelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunnelManager.swift; sourceTree = "<group>"; };
+		69420D6320CA8D620009F89A /* TunnelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunnelService.swift; sourceTree = "<group>"; };
 		708CEDC48BCFE78B0C5BDAC0 /* Pods-GrokBar-PlaygroundFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrokBar-PlaygroundFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrokBar-PlaygroundFramework/Pods-GrokBar-PlaygroundFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		7BD53859541F438897AC2EF7 /* Pods-GrokBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrokBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrokBar/Pods-GrokBar.debug.xcconfig"; sourceTree = "<group>"; };
 		8FC73496B598C330D311894E /* Pods_GrokBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrokBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +140,8 @@
 		6903B01820893E27001D9A11 /* GrokBar */ = {
 			isa = PBXGroup;
 			children = (
+				6903B02320893E28001D9A11 /* GrokBar.entitlements */,
+				69420D6220CA8D560009F89A /* Services */,
 				69420D5F20C9FAA70009F89A /* Managers */,
 				6903B02220893E28001D9A11 /* Info.plist */,
 				69405A0520C9B10500CB1D69 /* Models */,
@@ -145,7 +149,6 @@
 				69FBD67C20C9E516006C6DFE /* Storyboards */,
 				69FBD67D20C9E533006C6DFE /* ViewControllers */,
 				69240DC4208A158E0070C754 /* YAML */,
-				69420D5B20C9EDCC0009F89A /* TunnelCollectionViewCell.swift */,
 			);
 			path = GrokBar;
 			sourceTree = "<group>";
@@ -163,7 +166,6 @@
 		6903B03720894085001D9A11 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				6903B02320893E28001D9A11 /* GrokBar.entitlements */,
 				6903B01920893E27001D9A11 /* AppDelegate.swift */,
 				6903B01B20893E27001D9A11 /* ViewController.swift */,
 				6903B01D20893E28001D9A11 /* Assets.xcassets */,
@@ -203,6 +205,14 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
+		69420D6220CA8D560009F89A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				69420D6320CA8D620009F89A /* TunnelService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		69FBD67B20C9E4F6006C6DFE /* Support */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				6903B038208940BB001D9A11 /* MenuViewController.swift */,
+				69420D5B20C9EDCC0009F89A /* TunnelCollectionViewCell.swift */,
 				69420D5920C9E99A0009F89A /* TunnelCollectionView.swift */,
 			);
 			path = ViewControllers;
@@ -423,6 +434,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69420D5A20C9E99A0009F89A /* TunnelCollectionView.swift in Sources */,
+				69420D6420CA8D620009F89A /* TunnelService.swift in Sources */,
 				69405A0720C9B10E00CB1D69 /* Tunnel.swift in Sources */,
 				6903B01C20893E27001D9A11 /* ViewController.swift in Sources */,
 				6903B01A20893E27001D9A11 /* AppDelegate.swift in Sources */,
@@ -583,6 +595,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GrokBar/GrokBar.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FV9NULGJG4;
@@ -591,8 +604,14 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					"\"Yams\"",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.trimAgency.GrokBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -604,6 +623,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GrokBar/GrokBar.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FV9NULGJG4;
@@ -612,8 +632,14 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					"\"Yams\"",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.trimAgency.GrokBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;

@@ -4,10 +4,16 @@ platform :osx, '10.13'
 use_frameworks!
 inhibit_all_warnings!
 
-pod 'Yams'
+def main_pods
+  pod 'Yams'
+end
 
 
-target 'PlaygroundFramework'
-target 'GrokBarTests'
-target 'GrokBar'
+target 'GrokBarTests' do
+  main_pods
+end
+
+target 'GrokBar' do
+  main_pods
+end
 
