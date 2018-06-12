@@ -17,6 +17,7 @@
 		69405A0A20C9B37800CB1D69 /* YmlParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69405A0920C9B37800CB1D69 /* YmlParserTests.swift */; };
 		69405A0C20C9BB1F00CB1D69 /* validNgrok.yml in Resources */ = {isa = PBXBuildFile; fileRef = 69405A0B20C9B80B00CB1D69 /* validNgrok.yml */; };
 		69405A0E20C9C2C400CB1D69 /* invalidNgrok.yml in Resources */ = {isa = PBXBuildFile; fileRef = 69405A0D20C9C12700CB1D69 /* invalidNgrok.yml */; };
+		6941D87020D080CE00030A01 /* ngrok in Resources */ = {isa = PBXBuildFile; fileRef = 69DC5DA520D064AE009D3BD7 /* ngrok */; };
 		69420D5A20C9E99A0009F89A /* TunnelCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69420D5920C9E99A0009F89A /* TunnelCollectionView.swift */; };
 		69420D5D20C9EDCC0009F89A /* TunnelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69420D5B20C9EDCC0009F89A /* TunnelCollectionViewCell.swift */; };
 		69420D5E20C9EDCC0009F89A /* TunnelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69420D5C20C9EDCC0009F89A /* TunnelCollectionViewCell.xib */; };
@@ -340,6 +341,7 @@
 			files = (
 				6903B01E20893E28001D9A11 /* Assets.xcassets in Resources */,
 				69420D5E20C9EDCC0009F89A /* TunnelCollectionViewCell.xib in Resources */,
+				6941D87020D080CE00030A01 /* ngrok in Resources */,
 				6903B02120893E28001D9A11 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -594,13 +596,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7BD53859541F438897AC2EF7 /* Pods-GrokBar.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GrokBar/GrokBar.entitlements;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = FV9NULGJG4;
 				INFOPLIST_FILE = "$(SRCROOT)/GrokBar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -622,13 +624,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27FB84167A4E3B848458FF6C /* Pods-GrokBar.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GrokBar/GrokBar.entitlements;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = FV9NULGJG4;
 				INFOPLIST_FILE = "$(SRCROOT)/GrokBar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -650,11 +652,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E3B5533DBAE1BFF3832CDCD9 /* Pods-GrokBarTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = FV9NULGJG4;
 				INFOPLIST_FILE = GrokBarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -663,6 +666,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.trimAgency.GrokBarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrokBar.app/Contents/MacOS/GrokBar";
 			};
@@ -672,11 +676,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 950FC68F3931F22962C1A13E /* Pods-GrokBarTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = FV9NULGJG4;
 				INFOPLIST_FILE = GrokBarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -685,6 +690,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.trimAgency.GrokBarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrokBar.app/Contents/MacOS/GrokBar";
 			};
