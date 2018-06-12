@@ -71,6 +71,7 @@
 		69420D5C20C9EDCC0009F89A /* TunnelCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TunnelCollectionViewCell.xib; sourceTree = "<group>"; };
 		69420D6020C9FAB80009F89A /* TunnelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunnelManager.swift; sourceTree = "<group>"; };
 		69420D6320CA8D620009F89A /* TunnelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunnelService.swift; sourceTree = "<group>"; };
+		69DC5DA520D064AE009D3BD7 /* ngrok */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ngrok; sourceTree = "<group>"; };
 		708CEDC48BCFE78B0C5BDAC0 /* Pods-GrokBar-PlaygroundFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrokBar-PlaygroundFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrokBar-PlaygroundFramework/Pods-GrokBar-PlaygroundFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		7BD53859541F438897AC2EF7 /* Pods-GrokBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrokBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrokBar/Pods-GrokBar.debug.xcconfig"; sourceTree = "<group>"; };
 		8FC73496B598C330D311894E /* Pods_GrokBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrokBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +141,7 @@
 		6903B01820893E27001D9A11 /* GrokBar */ = {
 			isa = PBXGroup;
 			children = (
+				69DC5DA520D064AE009D3BD7 /* ngrok */,
 				6903B02320893E28001D9A11 /* GrokBar.entitlements */,
 				69420D6220CA8D560009F89A /* Services */,
 				69420D5F20C9FAA70009F89A /* Managers */,
@@ -595,7 +597,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GrokBar/GrokBar.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FV9NULGJG4;
@@ -623,7 +625,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GrokBar/GrokBar.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FV9NULGJG4;
