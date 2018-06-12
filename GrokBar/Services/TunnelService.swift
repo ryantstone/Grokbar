@@ -1,6 +1,7 @@
 import Foundation
 
 class TunnelService {
+    
     func startTunnelServer(_ tunnels: [Tunnel]) {
         let task = Process()
         task.launchPath = "/bin/sh"
@@ -10,11 +11,11 @@ class TunnelService {
         task.standardOutput = pipe
         task.launch()
     }
-    
     private func tunnelCommand(_ tunnels: [Tunnel]) -> String {
         return tunnels.reduce("") {text, tunnel in
             guard let name = tunnel.name else { return "" }
             return "\(text) \(name)"
         }
     }
+    
 }

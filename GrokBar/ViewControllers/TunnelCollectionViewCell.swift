@@ -7,10 +7,6 @@ class TunnelCollectionViewCell: NSCollectionViewItem {
     @IBOutlet weak var titleLabel: NSTextFieldCell!
     @IBOutlet weak var subdomainLabel: NSTextFieldCell!
     @IBOutlet weak var portLabel: NSTextFieldCell!
-    @IBAction func didChangeSelection(_ sender: Any) {
-        let button = sender as! NSButton
-//        self.isSelected = button.state.rawValue == 1 ? true : false
-    }
     
     var tunnel: Tunnel! {
         didSet {

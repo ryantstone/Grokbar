@@ -32,7 +32,7 @@ class MenuViewController: NSViewController {
     
     private func getSelectedTunnels() -> [Tunnel] {
         let tunnels = tunnelCollectionView.visibleItems().compactMap { (item) -> Tunnel? in
-            let item = item as! TunnelCollectionViewCell
+            guard let item = item as? TunnelCollectionViewCell else { return nil }
             return item.state() ? item.tunnel : nil
         }
         return tunnels
