@@ -3,22 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1C0C47C2E29676ED6B5E7C9EDB6AB3B1 /* Emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCDE21CB889211EF7248713D684F535 /* Emitter.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		264DA465EF56612777F82119D21DBA02 /* Node.Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63A5842C175033823B8A0F346997005 /* Node.Mapping.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2868C24980235CC86D18EDE3E12296F7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */; };
-		29A3C8C591C3E0F5DDDA5660397D8966 /* Pods-GrokBarTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A62A1B39BCBC2DD3CE2F1346BFE4E /* Pods-GrokBarTests-dummy.m */; };
+		29A3C8C591C3E0F5DDDA5660397D8966 /* Pods-GrokBarTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D79674819D3C8F35AFF32C28554FD4B3 /* Pods-GrokBarTests-dummy.m */; };
 		34FFE83D2F5BF4AFD6124576E75B4BE9 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C29C3808880368DD2F01B34D6AD283 /* Decoder.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		35E5DCDA2C09CF390D3BA357BAFE1F6D /* Node.Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C7FC71CA508E55C413A000B5A60FF /* Node.Sequence.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		36C607ED9753B9754197A78A168BF7B9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */; };
 		4307058167B9681ACDB95E577ACFAE94 /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 01D332DD2D0D32BF2C78F2B55F3F16A5 /* writer.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		44A13831EB5EC00EEBCC41D2D20A8BE5 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC206608DD273C810E41908DF79D015 /* Node.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4B26BC8E68CDE2C30FA8F093EE08B4DD /* Pods-GrokBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4924D5FCF6A765A3A33B38914D4E63 /* Pods-GrokBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B26BC8E68CDE2C30FA8F093EE08B4DD /* Pods-GrokBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62C468EFD60C5BF9C71CBC0650A283AB /* Pods-GrokBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50479CE61BABAAEE73CAC2468E862FD0 /* YamlError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1298710259C33CDBE1700BBE11FB486 /* YamlError.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		547E349BC695390B034B115CE3E2FECF /* Pods-GrokBarTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4AFB9E4C1E1B1C70BD92EEE0FD20FE4 /* Pods-GrokBarTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		547E349BC695390B034B115CE3E2FECF /* Pods-GrokBarTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA6358B4957487605DEF9A98F2C49EC /* Pods-GrokBarTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		705D0A1031A4D7572494889B2B50370B /* emitter.c in Sources */ = {isa = PBXBuildFile; fileRef = 8497F3CAF2072911739DEF32074C5F85 /* emitter.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		72B6DD59929980FD5732CC763F0251FE /* yaml.h in Headers */ = {isa = PBXBuildFile; fileRef = B7CA7E13C66663D193188D01892DDDF4 /* yaml.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72C1FAD80D6ED99E7E3FF5DF4DF5ECEC /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 114FF43FEDB20478DF2CB5C65C9A3BC1 /* scanner.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -34,7 +34,7 @@
 		B8F09C66B8F99160C44AA87F0B63C5EF /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF73C868437658B1C608BEF1FFAC239 /* Parser.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D059624443C2FE7E3CF9739F47368D0C /* Yams-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9078098424BB0C24F93AFE3A14FCB0A /* Yams-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3CA67818D6C9FB74E9248A90B55CD8C /* CYaml.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D049C9102C7DC50E0E4FE0E0E28F2E4 /* CYaml.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D40B9F51519365ED340C4D70ADD6849A /* Pods-GrokBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A12039CD76B03627F0C894DB4938C /* Pods-GrokBar-dummy.m */; };
+		D40B9F51519365ED340C4D70ADD6849A /* Pods-GrokBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA717D9693B6EDB75780D7AC8E8BA1B /* Pods-GrokBar-dummy.m */; };
 		D60D0723710B68D3AE399FED3BCD9BC2 /* Node.Scalar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9F34FB61453C6C6B19FFBD72A452D1 /* Node.Scalar.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		DBC9DDAE6EBB74245C30043883674402 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81445079A06617C8E69BC3F2F1E0FD0B /* Tag.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E6CEB8C689403DA80D99D3A12C3B713D /* Mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69746E4F48D9F132B1736D1FB5DF41BB /* Mark.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -61,70 +61,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00BB21A3F74190BA29545542098E4CC1 /* Pods-PlaygroundFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PlaygroundFramework.modulemap"; sourceTree = "<group>"; };
-		01D332DD2D0D32BF2C78F2B55F3F16A5 /* writer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = writer.c; path = Sources/CYaml/src/writer.c; sourceTree = "<group>"; };
+		01D332DD2D0D32BF2C78F2B55F3F16A5 /* writer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = writer.c; path = Sources/CYaml/src/writer.c; sourceTree = "<group>"; };
 		088298F7AE033DBFCD1558344345A9D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		093A62A1B39BCBC2DD3CE2F1346BFE4E /* Pods-GrokBarTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GrokBarTests-dummy.m"; sourceTree = "<group>"; };
-		0CB0DD7E35160308BC8D33A20CD8C234 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1117C9790035D060FD8265C6D86BB09D /* Pods-GrokBarTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GrokBarTests.modulemap"; sourceTree = "<group>"; };
-		114FF43FEDB20478DF2CB5C65C9A3BC1 /* scanner.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = scanner.c; path = Sources/CYaml/src/scanner.c; sourceTree = "<group>"; };
-		1777881A97EBCEEF69A3E5FA69171C2F /* Pods-PlaygroundFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PlaygroundFramework-umbrella.h"; sourceTree = "<group>"; };
-		2C73CB28170C03A75E5B2FC37322C993 /* Pods-GrokBar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GrokBar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0911D54A5DBB7E9E81D23940B4B2CDDA /* Pods-GrokBarTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GrokBarTests-frameworks.sh"; sourceTree = "<group>"; };
+		114FF43FEDB20478DF2CB5C65C9A3BC1 /* scanner.c */ = {isa = PBXFileReference; includeInIndex = 1; name = scanner.c; path = Sources/CYaml/src/scanner.c; sourceTree = "<group>"; };
+		1165FB51D3AC167D4D71DF2B05A4A283 /* Pods_GrokBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GrokBar.framework; path = "Pods-GrokBar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6A8B96B056B18BD9F465CD99750E7F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C82AB03404CCD6D3E59F1B2E433454B /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Yams/Resolver.swift; sourceTree = "<group>"; };
-		2EB1D75BF725A77FFB3170C877B3A816 /* Yams.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Yams.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F78DDF684C1409800AA9D73226D2429 /* Pods-PlaygroundFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlaygroundFramework.release.xcconfig"; sourceTree = "<group>"; };
-		3A2A12039CD76B03627F0C894DB4938C /* Pods-GrokBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GrokBar-dummy.m"; sourceTree = "<group>"; };
 		3D049C9102C7DC50E0E4FE0E0E28F2E4 /* CYaml.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYaml.h; path = Sources/CYaml/include/CYaml.h; sourceTree = "<group>"; };
-		437C53A869183EE0E988D92A47CB29ED /* Pods-GrokBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrokBarTests.debug.xcconfig"; sourceTree = "<group>"; };
-		45FA01461990D3C7C7FA06CC9BE40017 /* Pods-PlaygroundFramework-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PlaygroundFramework-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4B028207F6842D25D574F75E3140B590 /* Yams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Yams.h; path = Sources/Yams/Yams.h; sourceTree = "<group>"; };
-		4BE50F8975AB10CDA35AC990573E0C71 /* Pods-PlaygroundFramework-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlaygroundFramework-acknowledgements.plist"; sourceTree = "<group>"; };
 		50D7505E74B6101FC87C9AF659CB1EEE /* Yams-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Yams-prefix.pch"; sourceTree = "<group>"; };
 		52F287D9134C5EF5E69283034B35BDD9 /* Yams.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Yams.xcconfig; sourceTree = "<group>"; };
-		5C0F3AF5E7B19855EC7F5C6058DA7623 /* Pods-GrokBarTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GrokBarTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5CEFFFFAD619F04EB209A80FA62142E0 /* Pods_GrokBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrokBarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E59F55623F4DD3C416A7961E2839B0D /* Pods-GrokBar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GrokBar-resources.sh"; sourceTree = "<group>"; };
+		571E15AAD9AC86452E4E55A6F33412D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E11E184B2208606E77C32056F944096 /* Pods-GrokBarTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GrokBarTests.modulemap"; sourceTree = "<group>"; };
 		5FAD3177D5E012C4A85F562821BEF026 /* Encoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Encoder.swift; path = Sources/Yams/Encoder.swift; sourceTree = "<group>"; };
-		66E8FFF03B372BF4B67CE4EE14B519FF /* api.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = api.c; path = Sources/CYaml/src/api.c; sourceTree = "<group>"; };
-		68D19BD5B22AA04955A697B51D8F37A3 /* Pods-GrokBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrokBar.debug.xcconfig"; sourceTree = "<group>"; };
+		62C468EFD60C5BF9C71CBC0650A283AB /* Pods-GrokBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GrokBar-umbrella.h"; sourceTree = "<group>"; };
+		66AEECCBCDD3BAAA33124E70F156CBEC /* Pods-GrokBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrokBar.debug.xcconfig"; sourceTree = "<group>"; };
+		66E8FFF03B372BF4B67CE4EE14B519FF /* api.c */ = {isa = PBXFileReference; includeInIndex = 1; name = api.c; path = Sources/CYaml/src/api.c; sourceTree = "<group>"; };
 		69746E4F48D9F132B1736D1FB5DF41BB /* Mark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mark.swift; path = Sources/Yams/Mark.swift; sourceTree = "<group>"; };
 		69C29C3808880368DD2F01B34D6AD283 /* Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decoder.swift; path = Sources/Yams/Decoder.swift; sourceTree = "<group>"; };
 		6AC206608DD273C810E41908DF79D015 /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Sources/Yams/Node.swift; sourceTree = "<group>"; };
+		6D28A7F4E0D17D6B93B760970AA6D49D /* Pods-GrokBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrokBarTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6DCDE21CB889211EF7248713D684F535 /* Emitter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Emitter.swift; path = Sources/Yams/Emitter.swift; sourceTree = "<group>"; };
-		7099BE2BE60B289CF0362F937B9530F2 /* Pods-PlaygroundFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlaygroundFramework.debug.xcconfig"; sourceTree = "<group>"; };
-		764C218FE69EB9BB5BF1F4DF78F9CF7F /* Pods-PlaygroundFramework-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlaygroundFramework-resources.sh"; sourceTree = "<group>"; };
-		766428E9424929BF74E659883FE6B1A8 /* Pods-GrokBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrokBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		710E34665C98ED0447A8D1EC9351AE2C /* Pods_GrokBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GrokBarTests.framework; path = "Pods-GrokBarTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA717D9693B6EDB75780D7AC8E8BA1B /* Pods-GrokBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GrokBar-dummy.m"; sourceTree = "<group>"; };
 		81445079A06617C8E69BC3F2F1E0FD0B /* Tag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tag.swift; path = Sources/Yams/Tag.swift; sourceTree = "<group>"; };
-		8497F3CAF2072911739DEF32074C5F85 /* emitter.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = emitter.c; path = Sources/CYaml/src/emitter.c; sourceTree = "<group>"; };
-		861A7152CD42587634C6DCE4E1E9299A /* Pods_GrokBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrokBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BB47898B1CAE217074C747DA3C27D88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8497F3CAF2072911739DEF32074C5F85 /* emitter.c */ = {isa = PBXFileReference; includeInIndex = 1; name = emitter.c; path = Sources/CYaml/src/emitter.c; sourceTree = "<group>"; };
+		86851E30E83F01FE7B4090132BEF91B4 /* Yams.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Yams.framework; path = Yams.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EBA24B8F35ADD6CEA4DE699F79DE852 /* yaml_private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = yaml_private.h; path = Sources/CYaml/src/yaml_private.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94BA823D8EDFC50CD886F7BE4F90DB3B /* Pods-GrokBarTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GrokBarTests-frameworks.sh"; sourceTree = "<group>"; };
-		95745987C2BB41E8FDA5F5CBC067BD28 /* reader.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = reader.c; path = Sources/CYaml/src/reader.c; sourceTree = "<group>"; };
-		9A84011450BE3FF81FC8A7DEEEC40115 /* Pods-GrokBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GrokBar.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95745987C2BB41E8FDA5F5CBC067BD28 /* reader.c */ = {isa = PBXFileReference; includeInIndex = 1; name = reader.c; path = Sources/CYaml/src/reader.c; sourceTree = "<group>"; };
 		9B38D85AEF56E9CF4F793B3DCCA4FDF0 /* String+Yams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Yams.swift"; path = "Sources/Yams/String+Yams.swift"; sourceTree = "<group>"; };
 		9B65FB9A9C107401E60685AED702443A /* Yams-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Yams-dummy.m"; sourceTree = "<group>"; };
 		9CAD6340DF5F88D721FDE0DF5A969BD7 /* Representer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Representer.swift; path = Sources/Yams/Representer.swift; sourceTree = "<group>"; };
-		A6AF161920CC0E86EDF48C00D0EFC3A8 /* Pods-GrokBar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GrokBar-frameworks.sh"; sourceTree = "<group>"; };
-		ABD53DB7EDC63C660E46F7D90F98E246 /* Pods-GrokBar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GrokBar-acknowledgements.plist"; sourceTree = "<group>"; };
-		ACCC8D01067CC80F163684FA44037F1B /* Pods-GrokBarTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GrokBarTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B331AC399313D691B2C1D7A1863DF5D0 /* Pods-GrokBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrokBar.release.xcconfig"; sourceTree = "<group>"; };
+		AB2B3DF655AA37B6BD2621EA0C27F806 /* Pods-GrokBar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GrokBar-acknowledgements.plist"; sourceTree = "<group>"; };
+		B198BA778D67A168B589589EB35A6C4A /* Pods-GrokBarTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GrokBarTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B63A5842C175033823B8A0F346997005 /* Node.Mapping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.Mapping.swift; path = Sources/Yams/Node.Mapping.swift; sourceTree = "<group>"; };
+		B65E9639B5C93F7D28741C84D3909FBD /* Pods-GrokBarTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GrokBarTests-resources.sh"; sourceTree = "<group>"; };
 		B7CA7E13C66663D193188D01892DDDF4 /* yaml.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = yaml.h; path = Sources/CYaml/include/yaml.h; sourceTree = "<group>"; };
 		CA138CA0481F8BCFB09970B52B0CC2A4 /* Constructor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constructor.swift; path = Sources/Yams/Constructor.swift; sourceTree = "<group>"; };
+		CDFAABC71EBAE3256007DAD1282F8E51 /* Pods-GrokBar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GrokBar-resources.sh"; sourceTree = "<group>"; };
 		CFF73C868437658B1C608BEF1FFAC239 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Yams/Parser.swift; sourceTree = "<group>"; };
 		D0BE08551DD19A944B96C290472124AC /* Yams.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Yams.modulemap; sourceTree = "<group>"; };
-		D45791F811B8910EE33CA97E081877EB /* parser.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = parser.c; path = Sources/CYaml/src/parser.c; sourceTree = "<group>"; };
-		D55D23AFA7DEDDA1CEBAF8752C853D7A /* Pods-GrokBarTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GrokBarTests-resources.sh"; sourceTree = "<group>"; };
-		DC7418F914B3450AEAF7B5ECC8E839C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45791F811B8910EE33CA97E081877EB /* parser.c */ = {isa = PBXFileReference; includeInIndex = 1; name = parser.c; path = Sources/CYaml/src/parser.c; sourceTree = "<group>"; };
+		D79674819D3C8F35AFF32C28554FD4B3 /* Pods-GrokBarTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GrokBarTests-dummy.m"; sourceTree = "<group>"; };
+		D93DB7F876A07C9C8BBA5B84DC5EA4D2 /* Pods-GrokBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GrokBar.modulemap"; sourceTree = "<group>"; };
 		DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		E1298710259C33CDBE1700BBE11FB486 /* YamlError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YamlError.swift; path = Sources/Yams/YamlError.swift; sourceTree = "<group>"; };
-		E4AFB9E4C1E1B1C70BD92EEE0FD20FE4 /* Pods-GrokBarTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GrokBarTests-umbrella.h"; sourceTree = "<group>"; };
+		E4F5054B6B342680A8939ED271C6F47B /* Pods-GrokBar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GrokBar-frameworks.sh"; sourceTree = "<group>"; };
 		E9078098424BB0C24F93AFE3A14FCB0A /* Yams-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Yams-umbrella.h"; sourceTree = "<group>"; };
-		F3AA45D7C744FD32A7C5D417BA319ED4 /* Pods-PlaygroundFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PlaygroundFramework-dummy.m"; sourceTree = "<group>"; };
+		EDA6358B4957487605DEF9A98F2C49EC /* Pods-GrokBarTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GrokBarTests-umbrella.h"; sourceTree = "<group>"; };
+		F1F23CE4E0199FBCF3A47FD882A3A8B4 /* Pods-GrokBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrokBar.release.xcconfig"; sourceTree = "<group>"; };
+		F64BC6957A3DD413F9E7E3C26C5D9407 /* Pods-GrokBar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GrokBar-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FA7C7FC71CA508E55C413A000B5A60FF /* Node.Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.Sequence.swift; path = Sources/Yams/Node.Sequence.swift; sourceTree = "<group>"; };
-		FF4924D5FCF6A765A3A33B38914D4E63 /* Pods-GrokBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GrokBar-umbrella.h"; sourceTree = "<group>"; };
+		FC535474BF8C3247F329CEA11DF2EE06 /* Pods-GrokBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrokBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF2F5315AE77FBCAF25AA7CD4A56A3E4 /* Pods-GrokBarTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GrokBarTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FF9F34FB61453C6C6B19FFBD72A452D1 /* Node.Scalar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.Scalar.swift; path = Sources/Yams/Node.Scalar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,22 +147,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23E87E84D4B87A12BFF0408069063D54 /* Pods-GrokBar */ = {
+		0C22EBC2D6A66577A0B39E3586FDC4F3 /* Pods-GrokBar */ = {
 			isa = PBXGroup;
 			children = (
-				DC7418F914B3450AEAF7B5ECC8E839C0 /* Info.plist */,
-				9A84011450BE3FF81FC8A7DEEEC40115 /* Pods-GrokBar.modulemap */,
-				2C73CB28170C03A75E5B2FC37322C993 /* Pods-GrokBar-acknowledgements.markdown */,
-				ABD53DB7EDC63C660E46F7D90F98E246 /* Pods-GrokBar-acknowledgements.plist */,
-				3A2A12039CD76B03627F0C894DB4938C /* Pods-GrokBar-dummy.m */,
-				A6AF161920CC0E86EDF48C00D0EFC3A8 /* Pods-GrokBar-frameworks.sh */,
-				5E59F55623F4DD3C416A7961E2839B0D /* Pods-GrokBar-resources.sh */,
-				FF4924D5FCF6A765A3A33B38914D4E63 /* Pods-GrokBar-umbrella.h */,
-				68D19BD5B22AA04955A697B51D8F37A3 /* Pods-GrokBar.debug.xcconfig */,
-				B331AC399313D691B2C1D7A1863DF5D0 /* Pods-GrokBar.release.xcconfig */,
+				571E15AAD9AC86452E4E55A6F33412D7 /* Info.plist */,
+				D93DB7F876A07C9C8BBA5B84DC5EA4D2 /* Pods-GrokBar.modulemap */,
+				F64BC6957A3DD413F9E7E3C26C5D9407 /* Pods-GrokBar-acknowledgements.markdown */,
+				AB2B3DF655AA37B6BD2621EA0C27F806 /* Pods-GrokBar-acknowledgements.plist */,
+				7EA717D9693B6EDB75780D7AC8E8BA1B /* Pods-GrokBar-dummy.m */,
+				E4F5054B6B342680A8939ED271C6F47B /* Pods-GrokBar-frameworks.sh */,
+				CDFAABC71EBAE3256007DAD1282F8E51 /* Pods-GrokBar-resources.sh */,
+				62C468EFD60C5BF9C71CBC0650A283AB /* Pods-GrokBar-umbrella.h */,
+				66AEECCBCDD3BAAA33124E70F156CBEC /* Pods-GrokBar.debug.xcconfig */,
+				F1F23CE4E0199FBCF3A47FD882A3A8B4 /* Pods-GrokBar.release.xcconfig */,
 			);
 			name = "Pods-GrokBar";
 			path = "Target Support Files/Pods-GrokBar";
+			sourceTree = "<group>";
+		};
+		0ED14DA36FB66C65C28B281055AD6BA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1165FB51D3AC167D4D71DF2B05A4A283 /* Pods_GrokBar.framework */,
+				710E34665C98ED0447A8D1EC9351AE2C /* Pods_GrokBarTests.framework */,
+				86851E30E83F01FE7B4090132BEF91B4 /* Yams.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		301E068BD21B790D8CABBDACBC4DD36E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C22EBC2D6A66577A0B39E3586FDC4F3 /* Pods-GrokBar */,
+				E902149A319C73D33FF83314BFF597DE /* Pods-GrokBarTests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		35DA4F7D3E402254D4A3FFCB66866096 /* Pods */ = {
@@ -188,23 +198,6 @@
 				FA7AC8429882A95AA0810A9DCDED54FF /* OS X */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3D3D29FC04391FE1C1458DAE9247BB05 /* Pods-PlaygroundFramework */ = {
-			isa = PBXGroup;
-			children = (
-				8BB47898B1CAE217074C747DA3C27D88 /* Info.plist */,
-				00BB21A3F74190BA29545542098E4CC1 /* Pods-PlaygroundFramework.modulemap */,
-				45FA01461990D3C7C7FA06CC9BE40017 /* Pods-PlaygroundFramework-acknowledgements.markdown */,
-				4BE50F8975AB10CDA35AC990573E0C71 /* Pods-PlaygroundFramework-acknowledgements.plist */,
-				F3AA45D7C744FD32A7C5D417BA319ED4 /* Pods-PlaygroundFramework-dummy.m */,
-				764C218FE69EB9BB5BF1F4DF78F9CF7F /* Pods-PlaygroundFramework-resources.sh */,
-				1777881A97EBCEEF69A3E5FA69171C2F /* Pods-PlaygroundFramework-umbrella.h */,
-				7099BE2BE60B289CF0362F937B9530F2 /* Pods-PlaygroundFramework.debug.xcconfig */,
-				2F78DDF684C1409800AA9D73226D2429 /* Pods-PlaygroundFramework.release.xcconfig */,
-			);
-			name = "Pods-PlaygroundFramework";
-			path = "Target Support Files/Pods-PlaygroundFramework";
 			sourceTree = "<group>";
 		};
 		42EC887E7A3866166ACCEBFACECF31D2 /* Yams */ = {
@@ -237,25 +230,8 @@
 				4B028207F6842D25D574F75E3140B590 /* Yams.h */,
 				9F37595067D31AF35854C4837DFAF51E /* Support Files */,
 			);
+			name = Yams;
 			path = Yams;
-			sourceTree = "<group>";
-		};
-		5579E1CC661CEF75CAAEA2932D32D361 /* Pods-GrokBarTests */ = {
-			isa = PBXGroup;
-			children = (
-				0CB0DD7E35160308BC8D33A20CD8C234 /* Info.plist */,
-				1117C9790035D060FD8265C6D86BB09D /* Pods-GrokBarTests.modulemap */,
-				ACCC8D01067CC80F163684FA44037F1B /* Pods-GrokBarTests-acknowledgements.markdown */,
-				5C0F3AF5E7B19855EC7F5C6058DA7623 /* Pods-GrokBarTests-acknowledgements.plist */,
-				093A62A1B39BCBC2DD3CE2F1346BFE4E /* Pods-GrokBarTests-dummy.m */,
-				94BA823D8EDFC50CD886F7BE4F90DB3B /* Pods-GrokBarTests-frameworks.sh */,
-				D55D23AFA7DEDDA1CEBAF8752C853D7A /* Pods-GrokBarTests-resources.sh */,
-				E4AFB9E4C1E1B1C70BD92EEE0FD20FE4 /* Pods-GrokBarTests-umbrella.h */,
-				437C53A869183EE0E988D92A47CB29ED /* Pods-GrokBarTests.debug.xcconfig */,
-				766428E9424929BF74E659883FE6B1A8 /* Pods-GrokBarTests.release.xcconfig */,
-			);
-			name = "Pods-GrokBarTests";
-			path = "Target Support Files/Pods-GrokBarTests";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -264,19 +240,9 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
 				35DA4F7D3E402254D4A3FFCB66866096 /* Pods */,
-				F901A7BAF301C13EB856FC38DE7CF016 /* Products */,
-				8FD9E6145EE6353622D2B4094DB00F3D /* Targets Support Files */,
+				0ED14DA36FB66C65C28B281055AD6BA5 /* Products */,
+				301E068BD21B790D8CABBDACBC4DD36E /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8FD9E6145EE6353622D2B4094DB00F3D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				23E87E84D4B87A12BFF0408069063D54 /* Pods-GrokBar */,
-				5579E1CC661CEF75CAAEA2932D32D361 /* Pods-GrokBarTests */,
-				3D3D29FC04391FE1C1458DAE9247BB05 /* Pods-PlaygroundFramework */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		9F37595067D31AF35854C4837DFAF51E /* Support Files */ = {
@@ -293,14 +259,22 @@
 			path = "../Target Support Files/Yams";
 			sourceTree = "<group>";
 		};
-		F901A7BAF301C13EB856FC38DE7CF016 /* Products */ = {
+		E902149A319C73D33FF83314BFF597DE /* Pods-GrokBarTests */ = {
 			isa = PBXGroup;
 			children = (
-				861A7152CD42587634C6DCE4E1E9299A /* Pods_GrokBar.framework */,
-				5CEFFFFAD619F04EB209A80FA62142E0 /* Pods_GrokBarTests.framework */,
-				2EB1D75BF725A77FFB3170C877B3A816 /* Yams.framework */,
+				1A6A8B96B056B18BD9F465CD99750E7F /* Info.plist */,
+				5E11E184B2208606E77C32056F944096 /* Pods-GrokBarTests.modulemap */,
+				B198BA778D67A168B589589EB35A6C4A /* Pods-GrokBarTests-acknowledgements.markdown */,
+				FF2F5315AE77FBCAF25AA7CD4A56A3E4 /* Pods-GrokBarTests-acknowledgements.plist */,
+				D79674819D3C8F35AFF32C28554FD4B3 /* Pods-GrokBarTests-dummy.m */,
+				0911D54A5DBB7E9E81D23940B4B2CDDA /* Pods-GrokBarTests-frameworks.sh */,
+				B65E9639B5C93F7D28741C84D3909FBD /* Pods-GrokBarTests-resources.sh */,
+				EDA6358B4957487605DEF9A98F2C49EC /* Pods-GrokBarTests-umbrella.h */,
+				6D28A7F4E0D17D6B93B760970AA6D49D /* Pods-GrokBarTests.debug.xcconfig */,
+				FC535474BF8C3247F329CEA11DF2EE06 /* Pods-GrokBarTests.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-GrokBarTests";
+			path = "Target Support Files/Pods-GrokBarTests";
 			sourceTree = "<group>";
 		};
 		FA7AC8429882A95AA0810A9DCDED54FF /* OS X */ = {
@@ -360,7 +334,7 @@
 			);
 			name = "Pods-GrokBarTests";
 			productName = "Pods-GrokBarTests";
-			productReference = 5CEFFFFAD619F04EB209A80FA62142E0 /* Pods_GrokBarTests.framework */;
+			productReference = 710E34665C98ED0447A8D1EC9351AE2C /* Pods_GrokBarTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		91E308765D2DE0C00377FE8087F003A9 /* Pods-GrokBar */ = {
@@ -378,7 +352,7 @@
 			);
 			name = "Pods-GrokBar";
 			productName = "Pods-GrokBar";
-			productReference = 861A7152CD42587634C6DCE4E1E9299A /* Pods_GrokBar.framework */;
+			productReference = 1165FB51D3AC167D4D71DF2B05A4A283 /* Pods_GrokBar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9B72C6CDABEE2A582065CE606E438F72 /* Yams */ = {
@@ -395,7 +369,7 @@
 			);
 			name = Yams;
 			productName = Yams;
-			productReference = 2EB1D75BF725A77FFB3170C877B3A816 /* Yams.framework */;
+			productReference = 86851E30E83F01FE7B4090132BEF91B4 /* Yams.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -415,7 +389,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = F901A7BAF301C13EB856FC38DE7CF016 /* Products */;
+			productRefGroup = 0ED14DA36FB66C65C28B281055AD6BA5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -508,7 +482,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Yams/Yams-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Yams/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MODULEMAP_FILE = "Target Support Files/Yams/Yams.modulemap";
 				PRODUCT_MODULE_NAME = Yams;
@@ -541,7 +519,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Yams/Yams-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Yams/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MODULEMAP_FILE = "Target Support Files/Yams/Yams.modulemap";
 				PRODUCT_MODULE_NAME = Yams;
@@ -558,7 +540,7 @@
 		};
 		58998C8276451ED6F6CD780D8E26D95C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B331AC399313D691B2C1D7A1863DF5D0 /* Pods-GrokBar.release.xcconfig */;
+			baseConfigurationReference = F1F23CE4E0199FBCF3A47FD882A3A8B4 /* Pods-GrokBar.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -575,7 +557,11 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Target Support Files/Pods-GrokBar/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MODULEMAP_FILE = "Target Support Files/Pods-GrokBar/Pods-GrokBar.modulemap";
@@ -594,7 +580,7 @@
 		};
 		6C6FF7FA5EB28044EE7EE8634EA910E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 437C53A869183EE0E988D92A47CB29ED /* Pods-GrokBarTests.debug.xcconfig */;
+			baseConfigurationReference = 6D28A7F4E0D17D6B93B760970AA6D49D /* Pods-GrokBarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -611,7 +597,11 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Target Support Files/Pods-GrokBarTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MODULEMAP_FILE = "Target Support Files/Pods-GrokBarTests/Pods-GrokBarTests.modulemap";
@@ -631,7 +621,7 @@
 		};
 		73287B87A35368F1A9BDD1EF5B404DA3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 766428E9424929BF74E659883FE6B1A8 /* Pods-GrokBarTests.release.xcconfig */;
+			baseConfigurationReference = FC535474BF8C3247F329CEA11DF2EE06 /* Pods-GrokBarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -648,7 +638,11 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Target Support Files/Pods-GrokBarTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MODULEMAP_FILE = "Target Support Files/Pods-GrokBarTests/Pods-GrokBarTests.modulemap";
@@ -788,7 +782,7 @@
 		};
 		F7D1862C4B612FAF668A38FD4DF52E34 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68D19BD5B22AA04955A697B51D8F37A3 /* Pods-GrokBar.debug.xcconfig */;
+			baseConfigurationReference = 66AEECCBCDD3BAAA33124E70F156CBEC /* Pods-GrokBar.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -805,7 +799,11 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Target Support Files/Pods-GrokBar/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MODULEMAP_FILE = "Target Support Files/Pods-GrokBar/Pods-GrokBar.modulemap";

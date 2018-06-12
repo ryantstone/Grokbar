@@ -1,6 +1,0 @@
-framework module Pods_PlaygroundFramework {
-  umbrella header "Pods-PlaygroundFramework-umbrella.h"
-
-  export *
-  module * { export * }
-}
