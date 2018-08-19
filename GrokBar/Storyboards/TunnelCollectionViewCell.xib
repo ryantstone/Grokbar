@@ -30,9 +30,6 @@
                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                 <font key="font" metaFont="system"/>
                             </buttonCell>
-                            <connections>
-                                <action selector="didChangeSelection:" target="-2" id="YSe-pI-bLU"/>
-                            </connections>
                         </button>
                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="IcO-mb-YVU">
                             <rect key="frame" x="117" y="7" width="154" height="17"/>

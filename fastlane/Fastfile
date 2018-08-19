@@ -4,6 +4,7 @@ default_platform(:mac)
 platform :mac do
   desc "Run tests"
   lane :test do
+    match(readonly: true)
     run_tests(scheme: "GrokBarTests")
   end
 end
