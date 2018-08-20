@@ -16,12 +16,12 @@ class YmlParser {
         grokFile = userDirectory.appendingPathComponent(pathString)
     }
     
-    func parseTunnels() throws -> [Tunnel] {
+    func parseTunnels() throws -> [TunnelPreset] {
         let data        = try Data(contentsOf: grokFile)
         let contents    = String(data: data, encoding: String.Encoding.utf8)!
         let parsed      = try Yams.load(yaml: contents) as! [String: Any]
         let tunnelData  = parsed["tunnels"] as! [String: AnyObject]
-        var tunnels: [Tunnel] = []
+        var tunnels: [TunnelPreset] = []
         
         for (key, value) in tunnelData {
             
@@ -38,7 +38,7 @@ class YmlParser {
             let hostName: String?   = object["hostName"] as? String
             let name: String?       = key
             
-            tunnels.append(Tunnel(name: name,
+            tunnels.append(TunnelPreset(name: name,
                                   address: address,
                                   proto: proto,
                                   hostName: hostName,

@@ -1,9 +1,9 @@
-import Foundation
+//
+//  Tunnel.swift
+//  GrokBar
+//
+//  Created by Sharkmaul on 8/19/18.
+//  Copyright © 2018 ryanStone. All rights reserved.
+//
 
-struct Tunnel: Codable, Equatable {
-    let name: String?
-    let address: Int
-    let proto: String
-    let hostName: String?
-    let subDomain: String?
-}
+import Foundation

@@ -41,8 +41,8 @@ class YmlParserTests: XCTestCase {
         ymlParser.grokFile = validNgrokStub
         
         let tunnels = [
-            Tunnel(name: "fake-client", address: 4200, proto: "http", hostName: nil, subDomain: "fake-client"),
-            Tunnel(name: "fake-api", address: 3000, proto: "http", hostName: nil, subDomain: "fake-api")
+            TunnelPreset(name: "fake-client", address: 4200, proto: "http", hostName: nil, subDomain: "fake-client"),
+            TunnelPreset(name: "fake-api", address: 3000, proto: "http", hostName: nil, subDomain: "fake-api")
         ]
         let parsedTunnels = try! ymlParser.parseTunnels()
         XCTAssert(tunnels == parsedTunnels)

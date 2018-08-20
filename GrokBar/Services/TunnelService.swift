@@ -7,6 +7,7 @@ class TunnelService {
     }()
     
     func startTunnelServer(_ tunnels: [Tunnel]) {
+    func startTunnelServer(_ tunnels: [TunnelPreset]) {
         let task = Process()
         task.launchPath = "/bin/sh"
         task.arguments = [ "-c", "\(localPath)/Contents/Resources/ngrok start\(tunnelCommand(tunnels))" ]
@@ -17,6 +18,7 @@ class TunnelService {
     }
 
     private func tunnelCommand(_ tunnels: [Tunnel]) -> String {
+    private func tunnelCommand(_ tunnels: [TunnelPreset]) -> String {
         return tunnels.reduce("") {text, tunnel in
             guard let name = tunnel.name else { return "" }
             return "\(text) \(name)"

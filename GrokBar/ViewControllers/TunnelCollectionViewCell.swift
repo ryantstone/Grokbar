@@ -8,7 +8,7 @@ class TunnelCollectionViewCell: NSCollectionViewItem {
     @IBOutlet weak var subdomainLabel: NSTextFieldCell!
     @IBOutlet weak var portLabel: NSTextFieldCell!
     
-    var tunnel: Tunnel! {
+    var tunnel: TunnelPreset! {
         didSet {
             setupView()
         }
@@ -21,7 +21,7 @@ class TunnelCollectionViewCell: NSCollectionViewItem {
         view.wantsLayer = true
     }
     
-    public func setTunnel(_ tunnel: Tunnel) {
+    public func setTunnel(_ tunnel: TunnelPreset) {
         self.tunnel = tunnel
     }
     
